@@ -1,0 +1,6 @@
+In one special case, this testcase has a deadlock. 
+In this special case, you see that "cvWaitBroadcast.signal( ) is issued " is printed before
+the message "Main thread is waiting for cvWaitBroadcast".
+If you encounter a such case, please ignore and retry.
+Otherwise, your code has problem.
+
